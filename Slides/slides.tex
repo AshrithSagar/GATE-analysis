@@ -9,6 +9,8 @@
 
 \hypersetup{colorlinks=true, linkcolor=blue,}
 \setbeamercolor{title}{fg=black,bg=cyan}
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamercolor{frametitle}{fg=black,bg=cyan!50}
 
 \title[GATE]{\textbf{GATE}: Graduate Aptitude Test in Engineering}
 \author[Ashrith]{\textbf{Ashrith~Sagar~Yedlapalli}}
@@ -62,10 +64,13 @@
     \input{tables/pattern.tex}
 \end{frame}
 
-\begin{frame}{Score calculation}{What is is}
-    \begin{equation*}
-        S=S_{q}+(S_{t}-S_{q}){\frac {M-M_{q}}{{\overline {M}}_{t}-M_{q}}}
-    \end{equation*}
+\section{Score}
+\begin{frame}{Score calculation}{What it is}
+    \begin{block}{Score calculation formula}
+        \begin{equation*}
+            S=S_{q}+(S_{t}-S_{q}){\frac {M-M_{q}}{{\overline {M}}_{t}-M_{q}}}
+        \end{equation*}
+    \end{block}
 \end{frame}
 
 \begin{frame}{Post GATE scenario}{What comes next?}
@@ -75,6 +80,7 @@
     \end{itemize}
 \end{frame}
 
+\section{COAP portal}
 \begin{frame}{COAP}{Common Offer Acceptance Portal}
     \begin{itemize}
         \item Candidates who qualify GATE can apply to various IITs and IISc through COAP.
