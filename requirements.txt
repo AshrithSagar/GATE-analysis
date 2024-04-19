@@ -1,0 +1,15 @@
+chktex
+collection-fontsrecommended
+enumitem
+flowchart
+fontawesome5
+ifoddpage
+latexcolors
+latexindent
+latexmk
+makeshape
+multirow
+relsize
+standalone
+titlesec
+tocloft
