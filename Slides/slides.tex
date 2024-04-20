@@ -32,8 +32,8 @@
 \section{About GATE}
 \begin{frame}{About GATE}{What it is}
     \begin{itemize}
-        \item Conducted jointly by the IISc and the seven IITs \textbraceleft Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras, Roorkee\textbraceright
-        \item Score is used for admissions to various post-graduate education programs \textbraceleft ME, MTech, PhD\textbraceright
+        \item Conducted jointly by the IISc and the seven IITs \{ Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras, Roorkee\}
+        \item Score is used for admissions to various post-graduate education programs \{ ME, MTech, PhD\}
         \item Used for recruitments for entry-level positions to graduating engineers by several Indian Public Sector Undertakings (PSUs)
     \end{itemize}
 \end{frame}
@@ -100,11 +100,24 @@
 
 \section{Score}
 \begin{frame}{Score calculation}{How it works}
+    \begin{itemize}
+        \item Score reflects candidate's \textbf{relative performance} level.
+    \end{itemize}
+
     \begin{block}{Score calculation formula}
         \begin{equation*}
-            S=S_{q}+(S_{t}-S_{q}){\frac {M-M_{q}}{{\overline {M}}_{t}-M_{q}}}
+            \text{GATE Score} = S_{q} + (S_{t} - S_{q}) {\frac {M - M_{q}}{{M}_{t} - M_{q}}}
         \end{equation*}
     \end{block}
+
+    \begin{itemize}
+        \item $M$ is the marks obtained by the candidate in the paper mentioned on the GATE Score Card
+        \item $M_{q}$ is the qualifying marks for general category candidates in the paper \\
+              $M_{q}$ is 25 marks (out of 100) or $\mu + \sigma$, whichever is greater.
+        \item $M_{t}$, is the mean of marks of top 0.1\% or top 10 (whichever is larger) of all the candidates who appeared for the test paper
+        \item $S_{q} = 350$, is the score assigned to $M_{q}$ \\
+              $S_{t} = 900$, is the score assigned to $M_{t}$
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{Section-wise}{A good way to attempt}
